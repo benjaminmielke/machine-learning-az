@@ -13,8 +13,8 @@ Each ***walkthrough*** Jupyter Notebook will have the data set used to complete 
 Here is the updated list of completed models:
 
 # 1. Data Preprocessing
-   - Walkthrough
-   - Template
+   - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/01%20-%20Data%20Preprocessing/Data_Preprocessing_Walkthrough.ipynb)
+   - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/01%20-%20Data%20Preprocessing/Data_Preprocessing_Template.ipynb)
 # 2. Regression
    - **Simple Linear Regression**
      - Theory
