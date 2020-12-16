@@ -1,0 +1,41 @@
+Simple Linear Regression
+
+________________________________________________________________________________________________________________________________
+ASSUMPTIONS
+1. Linearity 
+    ->Must be a linear relationship between to dependent var. and indepedent vars. 
+    ->Scatter plot can show this
+2. Homoscedasticity
+    ->There is no clear pattern between residuals and predicted values. 
+    ->Scatter plit of residuals vs prediced values. Cone shape indicates a problem. 
+    ->If non-homoscedastic(heteroscedastic), a non-linear transformation or addition of a quadratic term may fix. 
+3. Multivariate normality
+    ->Errors(residuals) between obs and predicted values are normally distributed. 
+    ->Checked with histogram, Q-Q-Plot,  or goodness of fit test on the risiduals themselves
+4. Independence of errors
+    ->
+    ->
+5. Lack of multicollinearity
+    ->Independent variables(features) cannot be too highly correlated with each other
+    ->Checked with:
+        ->Correlation Matrix: a matrix of Pearsons Bivariate correlation between all independent variables should be less than .80
+        ->Variance Inflation Factor(VIF): degree of variance in the regresion estimates are increased due to multicollinearity. VIF greater             that 10 indicate a problem. 
+________________________________________________________________________________________________________________________________
+
+
+y = b0 + b1*x1   --- LINE OF BEST FIT
+
+y : dependent variable
+x1 : independent variable, associated with change of y
+b1 : coefficient for x1, how unit change in x1 effects unit change in y. Translater to connect x1 and y,controls the slope of line of best fit 
+b0 : constant where crosses y axis
+
+
+Yi - what actual observation value is
+yi^ - value of prediction from line of best fit
+
+Sum of least square to get minimum error - SUM(yi - yi^)^2 --> Min
+
+
+
+Aimed to predict continuous numerical value in Machine Learning. 
