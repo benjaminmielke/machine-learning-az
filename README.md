@@ -17,9 +17,9 @@ Here is the updated list of completed models:
    - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/01%20-%20Data%20Preprocessing/Data_Preprocessing_Template.ipynb)
 # 2. Regression
    - **Simple Linear Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/02%20-%20Simple%20Linear%20Regression/Simple_Linear_Regression_Theory.txt)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/02%20-%20Simple%20Linear%20Regression/simple_linear_regression_walkthrough.ipynb)
+     - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/02%20-%20Simple%20Linear%20Regression/simple_linear_regression_template.ipynb)
      
    - **Multiple Linear Regression**
      - Theory
