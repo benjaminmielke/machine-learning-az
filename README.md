@@ -22,9 +22,9 @@ Here is the updated list of completed models:
      - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/02%20-%20Simple%20Linear%20Regression/simple_linear_regression_template.ipynb)
      
    - **Multiple Linear Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/03%20-%20Multiple%20Linear%20Regression/Multiple_Linear_Regression_Theory)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/03%20-%20Multiple%20Linear%20Regression/multiple_linear_regression_walkthrough.ipynb)
+     - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/03%20-%20Multiple%20Linear%20Regression/multiple_linear_regression_template.ipynb)
      
    - **Polynomial Linear Regression**
      - Theory
