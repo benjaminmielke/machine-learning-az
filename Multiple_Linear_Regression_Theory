@@ -1,0 +1,76 @@
+Multiple Linear Regression
+
+________________________________________________________________________________________________________________________________
+ASSUMPTIONS
+1. Linearity 
+    ->Must be a linear relationship between to dependent var. and indepedent vars. 
+    ->Scatter plot can show this
+2. Homoscedasticity
+    ->There is no clear pattern between residuals and predicted values. 
+    ->Scatter plit of residuals vs prediced values. Cone shape indicates a problem. 
+    ->If non-homoscedastic(heteroscedastic), a non-linear transformation or addition of a quadratic term may fix. 
+3. Multivariate normality
+    ->Errors(residuals) between obs and predicted values are normally distributed. 
+    ->Checked with histogram, Q-Q-Plot,  or goodness of fit test on the risiduals themselves
+4. Independence of errors
+    ->
+    ->
+5. Lack of multicollinearity
+    ->Independent variables(features) cannot be too highly correlated with each other
+    ->Checked with:
+        ->Correlation Matrix: a matrix of Pearsons Bivariate correlation between all independent variables should be less than .80
+        ->Variance Inflation Factor(VIF): degree of variance in the regresion estimates are increased due to multicollinearity. VIF greater             that 10 indicate a problem. 
+________________________________________________________________________________________________________________________________
+
+Equation
+y = b0 + b1*x1 + b2*x2 + ... + bn*xn   --- LINE OF BEST FIT
+
+y : dependent variable
+xn : independent variable, associated with change of y
+bn : coefficient for xn, how unit change in xn effects unit change in y. Translater to connect xn and y
+b0 : constant where crosses y axis
+
+_____
+
+Dummy Variables in MLR
+-Never use all dummy variables wihtin equation solution, this is a trap, always exclude one
+-The dummy variables will have extreme multicollinearity
+-When the included dummy variable is flase, the constant coef turns into coef for non-cluded dummy variable
+
+_____
+
+--Building a Model--
+
+No need to check assumptions because if data breaks an assumption the model will perform poorly and a different model will likely be picked. 
+
+
+Feature Selection
+1. All-in: put all features in the model. Not common or recomended
+    ->Prior knowledge
+    ->You have to
+2. Backward Elimination:
+    ->Step 1: select a significance level(SL) to stay in the model
+    ->Step 2: Fit the full omdel with all possible predictors
+    ->Step 3: If feature with HIGHEST P-value is greater than SL, go to step 4. Otherwise, finished with elimiiation. 
+    ->Step 4: Remove the feature
+    ->Step 5: Re-fit model without that feature and back to Step 3
+3. Forward Selection
+    ->Step 1: select a significance level(SL) to stay in the model
+    ->Step 2: Fit all simple linear regression models, y~xn, select feature with lowest P-value
+    ->Step 3: Fit all simple linear regression models with selected feature added to the equation
+    ->Step 4: If selected feature with LOWEST P-value is less than SL, go to Step 3. Otherwise, finish with forward selection. 
+    ->Step 5: Once finished, keep the previous model
+4. Bidirectional Elimination(Stepwise regression):combines Forward and Backward
+    ->Step 1: select a significance level(SL) to stay AND enter in the model, SLenter and SLstay
+    ->Step 2: Perform next step of Forward Selection(P-VALUEfeature < SLENTER to enter)
+    ->Step 3: Perform ALL steps of Backward Elimination (old features must have P < SLSTAY to stay)
+    ->Step 4: No new features can enter AND no old variables can exit
+    ->Step 5: Finished model
+5. All Possible Models: most thourough and time consuming
+    ->Step 1: Select criterian of goodness of fit (eg Akaike criterion)
+    ->Step 2: Construct all possible Regression Models(2^N-1 total combos)
+    ->Step 3: Select one with best criterion
+    ->Step 4: Finished model
+
+
+
