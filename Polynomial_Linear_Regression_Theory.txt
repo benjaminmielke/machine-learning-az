@@ -1,0 +1,10 @@
+Polynomial Linear Regression Theory
+
+Equation
+y = b0 + b1x1 + b1x1^2 + ... + bnxn^n
+
+It is still called linear because of the COEFFICIENTS, not the xn. The coefficients are the unknowns, thus this equation is still linear. 
+
+This is a "vesion" of multiple linear regression
+
+When a simple linear regression does not fit well, polynomial equation can give the curve a parabolic curve effect. 
