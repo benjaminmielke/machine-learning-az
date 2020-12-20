@@ -1,0 +1,20 @@
+Support Vector Linear Regression
+
+While SLR best fits a single line through the data points, SVR fits a line but also with a "tube" surrounding the line. The "tube" is called the Insensitive Tube. Data poinst are located in out outside of the SVR tube. The risidual error of the points within the tube are ignored. The error of points outside of tube are used. 
+
+
++                          +         +
+___________________________________________________________________
++                               +               +
+-------------------------------------------------------------------
+__________________+__________________+_______________+________________
++               +        +
+              +                                           +
+              
+         
+The space between the line and insensative tube edges is Epsilon. 
+
+Equation
+(1/2)||w||^2  +  C{SUM i=1 --> m}(sum total of errors above and below tube) ---> Min
+
+The error points outside of tube can be considered as vectors when line drawn from axis point. Hence, the name "vector" regression. The points outside of tube are "support" points. 
