@@ -32,9 +32,9 @@ Here is the updated list of completed models:
      - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/04%20-%20Polynomial%20Linear%20Regression/polynomial_linear_regression_template.ipynb)
      
    - **Support Vector Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/05%20-%20Support%20Vector%20Regression/support_vector_linear_regression_Theory.txt)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/05%20-%20Support%20Vector%20Regression/support_vector_regression_walkthrough.ipynb)
+     - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/05%20-%20Support%20Vector%20Regression/support_vector_regression_template.ipynb)
      
    - **Decision Tree Regression**
      - Theory
