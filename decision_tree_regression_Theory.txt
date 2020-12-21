@@ -1,0 +1,22 @@
+Decision Tree Regression
+------------------------
+
+CART - Classification and Regression Trees
+
+This is theory on Regression Trees
+                  ----------------
+                  
+                  
+-Start with scatter plot with two INDEPENDENT variables, with the DEPENDENT variable as a third dimension. 
+-Information entropy performs multiple splits on the data to group the data called LEAVES. The final leaves are called TERMINAL LEAVES.
+
+To predict a value of the indepedent variable, the value is assigned to the average of the independent values within the TERMINAL LEAF the predicted value falls in. 
+
+
+Example, where end values are AVERAGES of the Leaf. 
+x1<20
+  yes--------------------------------------->x2<200
+  no -->x2<170                                  yes-->300.5
+          yes----------->x1<40                  no -->65.7
+          no -->1023       yes-->-64.1
+                           no -->0.7
