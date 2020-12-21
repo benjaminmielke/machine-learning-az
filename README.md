@@ -37,9 +37,9 @@ Here is the updated list of completed models:
      - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/05%20-%20Support%20Vector%20Regression/support_vector_regression_template.ipynb)
      
    - **Decision Tree Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/06%20-%20Decision%20Tree%20Regression/decision_tree_regression_Theory.txt)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/06%20-%20Decision%20Tree%20Regression/decision_tree_regression_walkthrough.ipynb)
+     - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/06%20-%20Decision%20Tree%20Regression/decision_tree_regression_template.ipynb)
      
    - **Random Forest Regression**
      - Theory
