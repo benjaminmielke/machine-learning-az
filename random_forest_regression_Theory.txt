@@ -1,0 +1,12 @@
+Random Forest Regression
+------------------------
+
+Version of Ensemble Learning
+
+Step 1: pick a random K data points from Traning set
+Step 2: build a decision tree bsaed on these K data points
+Step 3: choose number N trees you want to build and repeat steps 1 and 2
+Step 4: for a new data point, each N tree predicts value of Y for new data poiint, then assigns the average of all Ntrees as the predicted value for Y. 
+
+
+Ensemble Learning is more stable. 
