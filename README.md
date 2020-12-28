@@ -42,9 +42,9 @@ Here is the updated list of completed models:
      - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/06%20-%20Decision%20Tree%20Regression/decision_tree_regression_template.ipynb)
      
    - **Random Forest Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/07%20-%20Random%20Forest%20Regression/random_forest_regression_Theory.txt)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/07%20-%20Random%20Forest%20Regression/random_forest_regression_walkthrough.ipynb)
+     - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/07%20-%20Random%20Forest%20Regression/random_forest_regression_template.ipynb)
      
    - **Logistic Regression**
      - Theory
