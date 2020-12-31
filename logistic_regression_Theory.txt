@@ -1,0 +1,28 @@
+Logistic Regression
+-------------------
+
+1|   Action Y/N
+ |
+ |     + +     +         + + + + + + + + + + + + +
+ |
+ |
+ |
+ |
+ |
+0------+-+-+-+-+-+---+---+--+------------+------>age
+
+Looking to predict the liklihood or probablity of taking action. Need to fit a line that is between 0 and 1. 
+
+Equation to fit a probablity line of best fit between 0 and 1. 
+ Apply a Sigmoid Funcition (P=1/(1+e^-y)) to the simple linear regression equation (y=b0+b1x1)
+ Solving for y from the Sigmoid Function --> ln(P/(1-P)) 
+ Apply to SLR equation --> ln(P/(1-P)) = b0 + b1x1
+ 
+Equation for Logistic Regression best fit line
+----------------------------------------------
+
+ln(P/(1-P)) = b0 + b1x1
+
+-This creates a line that appraches but never reaches 0 or 1, but can create a probablity(p^).
+-You can also get a predicted value for y(y^). Do this by picking a probablity level and projecting data point downward to 0 if less than probablity threshold and upward to 1 if above probablity threshold. 
+
