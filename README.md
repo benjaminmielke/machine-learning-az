@@ -47,9 +47,8 @@ Here is the updated list of completed models:
      - [Template](https://github.com/benjaminmielke/machine-learning-az/blob/main/07%20-%20Random%20Forest%20Regression/random_forest_regression_template.ipynb)
      
    - **Logistic Regression**
-     - Theory
-     - Walkthrough
-     - Template
+     - [Theory](https://github.com/benjaminmielke/machine-learning-az/blob/main/08%20-%20Logistic%20Regression/logistic_regression_Theory.txt)
+     - [Walkthrough](https://github.com/benjaminmielke/machine-learning-az/blob/main/08%20-%20Logistic%20Regression/logistic_regression_walkthrough.ipynb)
      
 # 3. Classification
    - **K-Nearest Neighbors(kNN)**
